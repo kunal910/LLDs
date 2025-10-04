@@ -11,6 +11,7 @@ public class BookController {
     // We can use idBooMap only
     // No need to remove and add again and again, we can use isAvailable for that handling
     // ConcurrentMaps/List should be used for thread safety, race condition, concurrency
+    // Synchronized method blocks can be used, but it blocks whole method with thread safe, so deadlocks occurs two thread wate same time
 
     private List<Book> bookList = new ArrayList<>();
     private List<Book> borrowedBookList = new ArrayList<>();
