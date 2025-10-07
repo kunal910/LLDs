@@ -3,7 +3,6 @@ package com.animator.catalog.splitwise.model.Expense;
 import com.animator.catalog.splitwise.model.Expense.Split.Split;
 import com.animator.catalog.splitwise.model.User.User;
 
-import java.util.ArrayList;
 import java.util.List;
 
 public class Expense {
