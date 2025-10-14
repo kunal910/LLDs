@@ -24,6 +24,7 @@ public class BalanceSheet {
             balance.addAmountOwe(-amount);
             totalAmountOwe-=amount;
         }
+        userVsBalance.put(otherUser, balance);
     }
 
     public Double getTotalAmountGetBack() {

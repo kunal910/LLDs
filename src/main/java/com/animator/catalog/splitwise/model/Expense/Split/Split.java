@@ -18,4 +18,8 @@ public class Split {
     public User getUser() {
         return user;
     }
+
+    public void setAmountOwe(double amountOwe) {
+        this.amountOwe = amountOwe;
+    }
 }

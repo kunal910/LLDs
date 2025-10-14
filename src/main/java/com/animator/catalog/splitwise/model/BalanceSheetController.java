@@ -17,7 +17,7 @@ public class BalanceSheetController {
             BalanceSheet balanceSheetOweBy = split.getUser().getBalanceSheet();
 
             balanceSheetPaidBy.updateBalance(split.getUser(), split.getAmountOwe());
-            balanceSheetOweBy.updateBalance(split.getUser(), -split.getAmountOwe());
+            balanceSheetOweBy.updateBalance(expense.getPaidBy(), -split.getAmountOwe());
         }
     }
 
